@@ -1,2 +1,1 @@
-BOOTLOADER = uf2boot
 COMBO_ENABLE = yes
