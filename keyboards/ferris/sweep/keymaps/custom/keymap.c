@@ -3,14 +3,6 @@
 #include "keymap.h"
 #endif
 
-// Disable LED from liatris controller
-#include "gpio.h"
-
-void keyboard_pre_init_user(void) {
-    gpio_set_pin_output(24);
-    gpio_write_pin_high(24);
-}
-
 // CUSTOM KEYCODES
 enum custom_keycodes {
     EURO = SAFE_RANGE,
